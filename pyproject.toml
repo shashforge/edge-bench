@@ -1,0 +1,11 @@
+[project]
+name = "edge-bench"
+version = "0.1.0"
+description = "The shashforge.dev Edge AI benchmark protocol, as runnable code. Numbers await hardware; the discipline does not."
+authors = [{ name = "Shashi Shankar", email = "shashi@shashforge.dev" }]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
